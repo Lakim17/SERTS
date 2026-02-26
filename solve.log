@@ -1,0 +1,70 @@
+Solver command line: ['c:\\Users\\mikal\\Desktop\\TU Berlin\\Wirtschaftsingenieurswesen\\1. Semester\\SERTS\\CBC\\bin\\cbc.exe', '-printingOptions', 'all', '-import', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmpc443k9b5.pyomo.lp', '-stat=1', '-solve', '-solu', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmpc443k9b5.pyomo.soln']
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.12 
+Build Date: Aug 20 2024 
+
+command line - c:\Users\mikal\Desktop\TU Berlin\Wirtschaftsingenieurswesen\1. Semester\SERTS\CBC\bin\cbc.exe -printingOptions all -import C:\Users\mikal\AppData\Local\Temp\tmpc443k9b5.pyomo.lp -stat=1 -solve -solu C:\Users\mikal\AppData\Local\Temp\tmpc443k9b5.pyomo.soln (default strategy 1)
+Option for printingOptions changed from normal to all
+Presolve 180803 (-38437) rows, 117889 (-57505) columns and 520453 (-68639) elements
+Statistics for presolved model
+
+
+Problem has 180803 rows, 117889 columns (2 with objective) and 520453 elements
+Column breakdown:
+117888 of type 0.0->inf, 0 of type 0.0->up, 1 of type lo->inf, 
+0 of type lo->up, 0 of type free, 0 of type fixed, 
+0 of type -inf->0.0, 0 of type -inf->up, 0 of type 0.0->1.0 
+Row breakdown:
+17215 of type E 0.0, 0 of type E 1.0, 0 of type E -1.0, 
+12978 of type E other, 0 of type G 0.0, 0 of type G 1.0, 
+19070 of type G other, 94965 of type L 0.0, 0 of type L 1.0, 
+36575 of type L other, 0 of type Range 0.0->1.0, 0 of type Range other, 
+0 of type Free 
+Presolve 180803 (-38437) rows, 117889 (-57505) columns and 520453 (-68639) elements
+Perturbing problem by 0.001% of 2132.9948 - largest nonzero change 1.1084774 ( 0.66720499%) - largest zero change 0.010734139
+0  Obj 4.8465859e+08 Primal inf 1.2385332e+11 (32058)
+927  Obj 5.0520087e+08 Primal inf 9.4944974e+10 (31841)
+1854  Obj 5.2090776e+08 Primal inf 7.2972325e+10 (31652)
+2781  Obj 5.3393839e+08 Primal inf 5.6083587e+10 (31467)
+3708  Obj 9.1268127e+08 Primal inf 4.2903244e+10 (31162)
+4635  Obj 1.3413562e+09 Primal inf 4.2014175e+10 (30809)
+5562  Obj 1.385257e+09 Primal inf 6.7926448e+10 (30628)
+6489  Obj 2.6301461e+09 Primal inf 8.5487079e+10 (30090)
+7416  Obj 6.0917463e+09 Primal inf 3.2136728e+10 (14107)
+8343  Obj 6.2293078e+09 Primal inf 5.4379905e+10 (13957)
+9270  Obj 6.8750811e+09 Primal inf 6.6244091e+10 (14527)
+10197  Obj 6.9109639e+09 Primal inf 1.0893813e+10 (13193)
+11124  Obj 6.9277664e+09 Primal inf 7.7107927e+09 (12872)
+12051  Obj 6.9338648e+09 Primal inf 5.1242524e+09 (12508)
+12978  Obj 6.9409822e+09 Primal inf 3.4836389e+09 (11898)
+13905  Obj 6.9676894e+09 Primal inf 2.5231036e+09 (11260)
+14832  Obj 6.9992099e+09 Primal inf 1.806604e+09 (10716)
+15759  Obj 7.0068509e+09 Primal inf 1.2955056e+09 (10000)
+16686  Obj 7.0224871e+09 Primal inf 7.8113301e+08 (9242)
+17613  Obj 7.0989155e+09 Primal inf 2.0122536e+08 (8325)
+18540  Obj 7.1097182e+09 Primal inf 90970342 (7397)
+19467  Obj 7.1118725e+09 Primal inf 2.353576e+08 (6754)
+20394  Obj 7.1145088e+09 Primal inf 7259.8934 (5734)
+21321  Obj 7.1145088e+09 Primal inf 7259.8943 (4807)
+22248  Obj 7.1145088e+09 Primal inf 7259.8953 (3880)
+23175  Obj 7.1145088e+09 Primal inf 6507.9469 (2953)
+24102  Obj 7.1145088e+09 Primal inf 5338.3503 (2026)
+25029  Obj 7.1145088e+09 Primal inf 2833.5685 (1099)
+25956  Obj 7.1145088e+09 Primal inf 521.80014 (172)
+26128  Obj 7.1145088e+09
+26128  Obj 6.5563705e+09 Dual inf 1.4517247 (1)
+27039  Obj 6.5102951e+09 Dual inf 362.18012 (3)
+27758  Obj 6.4868741e+09
+Optimal - objective value 6.4868741e+09
+After Postsolve, objective 6.4868741e+09, infeasibilities - dual 0 (0), primal 0.0008865938 (6687)
+Presolved model was optimal, full model needs cleaning up
+0  Obj 5.9249705e+09 Primal inf 1.1261815e+10 (1551) Dual inf 21023.179 (3)
+0  Obj 5.9249705e+09 Primal inf 1.1261815e+10 (1551) Dual inf 9.5380639e+15 (23379)
+67  Obj 6.4876239e+09 Dual inf 166.60563 (5)
+105  Obj 6.4868741e+09
+Optimal - objective value 6.4868741e+09
+Optimal objective 6486874130 - 27863 iterations time 15.242, Presolve 2.66
+Total time (CPU seconds):       17.08   (Wallclock seconds):       17.08
+
+
