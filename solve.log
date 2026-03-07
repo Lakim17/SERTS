@@ -1,10 +1,10 @@
-Solver command line: ['c:\\Users\\mikal\\Desktop\\TU Berlin\\Wirtschaftsingenieurswesen\\1. Semester\\SERTS\\CBC\\bin\\cbc.exe', '-printingOptions', 'all', '-import', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmpnznu_5t5.pyomo.lp', '-stat=1', '-solve', '-solu', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmpnznu_5t5.pyomo.soln']
+Solver command line: ['c:\\Users\\mikal\\Desktop\\TU Berlin\\Wirtschaftsingenieurswesen\\1. Semester\\SERTS\\CBC\\bin\\cbc.exe', '-printingOptions', 'all', '-import', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmpgfziagi8.pyomo.lp', '-stat=1', '-solve', '-solu', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmpgfziagi8.pyomo.soln']
 
 Welcome to the CBC MILP Solver 
 Version: 2.10.12 
 Build Date: Aug 20 2024 
 
-command line - c:\Users\mikal\Desktop\TU Berlin\Wirtschaftsingenieurswesen\1. Semester\SERTS\CBC\bin\cbc.exe -printingOptions all -import C:\Users\mikal\AppData\Local\Temp\tmpnznu_5t5.pyomo.lp -stat=1 -solve -solu C:\Users\mikal\AppData\Local\Temp\tmpnznu_5t5.pyomo.soln (default strategy 1)
+command line - c:\Users\mikal\Desktop\TU Berlin\Wirtschaftsingenieurswesen\1. Semester\SERTS\CBC\bin\cbc.exe -printingOptions all -import C:\Users\mikal\AppData\Local\Temp\tmpgfziagi8.pyomo.lp -stat=1 -solve -solu C:\Users\mikal\AppData\Local\Temp\tmpgfziagi8.pyomo.soln (default strategy 1)
 Option for printingOptions changed from normal to all
 Presolve 1084069 (-230892) rows, 706926 (-345044) columns and 3121204 (-411847) elements
 Statistics for presolved model
@@ -217,7 +217,7 @@ Presolved model was optimal, full model needs cleaning up
 0  Obj 2.630052e+10 Primal inf 7.7990333e+12 (379738) Dual inf 98384.039 (1)
 48  Obj 3.2330657e+10
 Optimal - objective value 3.2330657e+10
-Optimal objective 3.233065733e+10 - 184651 iterations time 1123.382, Presolve 87.17
-Total time (CPU seconds):       1136.33   (Wallclock seconds):       1136.31
+Optimal objective 3.233065733e+10 - 184651 iterations time 1160.902, Presolve 84.72
+Total time (CPU seconds):       1173.91   (Wallclock seconds):       1173.90
 
 
