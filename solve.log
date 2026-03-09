@@ -1,10 +1,10 @@
-Solver command line: ['c:\\Users\\mikal\\Desktop\\TU Berlin\\Wirtschaftsingenieurswesen\\1. Semester\\SERTS\\CBC\\bin\\cbc.exe', '-printingOptions', 'all', '-import', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmp_z9oi3fw.pyomo.lp', '-stat=1', '-solve', '-solu', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmp_z9oi3fw.pyomo.soln']
+Solver command line: ['c:\\Users\\mikal\\Desktop\\TU Berlin\\Wirtschaftsingenieurswesen\\1. Semester\\SERTS\\CBC\\bin\\cbc.exe', '-printingOptions', 'all', '-import', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmpzg7bsqka.pyomo.lp', '-stat=1', '-solve', '-solu', 'C:\\Users\\mikal\\AppData\\Local\\Temp\\tmpzg7bsqka.pyomo.soln']
 
 Welcome to the CBC MILP Solver 
 Version: 2.10.12 
 Build Date: Aug 20 2024 
 
-command line - c:\Users\mikal\Desktop\TU Berlin\Wirtschaftsingenieurswesen\1. Semester\SERTS\CBC\bin\cbc.exe -printingOptions all -import C:\Users\mikal\AppData\Local\Temp\tmp_z9oi3fw.pyomo.lp -stat=1 -solve -solu C:\Users\mikal\AppData\Local\Temp\tmp_z9oi3fw.pyomo.soln (default strategy 1)
+command line - c:\Users\mikal\Desktop\TU Berlin\Wirtschaftsingenieurswesen\1. Semester\SERTS\CBC\bin\cbc.exe -printingOptions all -import C:\Users\mikal\AppData\Local\Temp\tmpzg7bsqka.pyomo.lp -stat=1 -solve -solu C:\Users\mikal\AppData\Local\Temp\tmpzg7bsqka.pyomo.soln (default strategy 1)
 Option for printingOptions changed from normal to all
 Presolve 1084069 (-230892) rows, 706926 (-345044) columns and 3121204 (-411847) elements
 Statistics for presolved model
@@ -203,7 +203,7 @@ Presolved model was optimal, full model needs cleaning up
 0  Obj 2.6765532e+10 Primal inf 3.2062909e+12 (366172)
 86  Obj 2.8096132e+10
 Optimal - objective value 2.8096132e+10
-Optimal objective 2.809613241e+10 - 171036 iterations time 854.462, Presolve 84.12
-Total time (CPU seconds):       866.53   (Wallclock seconds):       866.53
+Optimal objective 2.809613241e+10 - 171036 iterations time 4131.112, Presolve 229.50
+Total time (CPU seconds):       4163.86   (Wallclock seconds):       4162.11
 
 
